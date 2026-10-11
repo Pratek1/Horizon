@@ -1,4 +1,4 @@
-# 🏡 Wanderlust
+# 🏡 Horizon
 
 > A full-stack Airbnb-inspired property listing web application where users can browse, create, edit, and review travel listings — complete with user authentication and cloud image uploads.
 
@@ -37,7 +37,7 @@
 ## 📁 Project Structure
 
 ```
-wanderlust/
+Horizon/
 ├── app.js                  # Entry point — Express app setup, middleware, routes
 ├── cloudConfig.js          # Cloudinary + Multer storage configuration
 ├── middleware.js           # Custom middleware (auth guards, validation, ownership)
@@ -111,8 +111,8 @@ cp .env.example .env
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/wanderlust.git
-cd wanderlust
+git clone https://github.com/your-username/Horizon.git
+cd Horizon
 
 # 2. Install dependencies
 npm install
@@ -138,8 +138,8 @@ Open **http://localhost:8080/listings** in your browser.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/wanderlust.git
-cd wanderlust
+git clone https://github.com/your-username/Horizon.git
+cd Horizon
 
 # 2. Set up environment variables
 cp .env.example .env
